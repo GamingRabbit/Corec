@@ -15,3 +15,9 @@ BOT_PREFIX = ("Corec,", "Corec, ", "C", "Corec!", "C,")
 
 client = Bot(command_prefix=BOT_PREFIX)
 c2 = discord.Client()
+
+
+
+
+client.loop.create_task(list_servers())
+client.run(os.getenv("TOKEN"))
