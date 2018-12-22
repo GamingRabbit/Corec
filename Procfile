@@ -1,1 +1,1 @@
-worker: python bbotic.py
+worker: python corec.py
